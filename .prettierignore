@@ -1,0 +1,7 @@
+/dist/* # 忽略 dist 目录下的所有文件
+.local # 忽略名为 .local 的文件
+.output.js # 忽略名为 .output.js 的文件
+/node_modules/** # 忽略 node_modules 目录以及其子目录下的所有文件
+**/*.svg # 忽略所有的 .svg 文件，无论它们在什么位置
+**/*.sh # 忽略所有的 .sh 文件，无论它们在什么位置
+/public/* # 忽略 public 目录下的所有文件
